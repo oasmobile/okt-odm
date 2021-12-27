@@ -9,7 +9,10 @@ plugins {
 }
 
 dependencies {
+    // Projects
     implementation(project(":odm-core"))
+    //MongoDB
+    api("org.mongodb:mongodb-driver-sync:4.4.0")
     // Test
     testImplementation("org.jetbrains.kotlin:kotlin-test:1.5.21")
 }
