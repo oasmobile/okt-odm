@@ -5,7 +5,7 @@
  */
 
 plugins {
-    id("odm-common")
+    id("odm-core")
 }
 
 dependencies {
