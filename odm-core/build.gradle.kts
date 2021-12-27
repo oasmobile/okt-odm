@@ -9,5 +9,6 @@ plugins {
 }
 
 dependencies {
-    //implementation(project(":utilities"))
+    // Test
+    testImplementation("org.jetbrains.kotlin:kotlin-test:1.5.21")
 }
