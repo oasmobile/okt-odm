@@ -3,20 +3,21 @@
  */
 package com.oasis.okt.odm.mongodb
 
-import org.junit.jupiter.api.Test
-
 import org.junit.jupiter.api.Assertions.*
+import kotlin.test.Test
 
 class CommonTest {
-    @Test fun testAdd() {
-        val list = LinkedList()
+    
+    @Test
+    fun testAdd() {
+        val list = mutableListOf<String>()
 
         list.add("one")
-        assertEquals(1, list.size())
-        assertEquals("one", list.get(0))
+        assertEquals(1, list.size)
+        assertEquals("one", list[0])
 
         list.add("two")
-        assertEquals(2, list.size())
-        assertEquals("two", list.get(1))
+        assertEquals(2, list.size)
+        assertEquals("two", list[1])
     }
 }

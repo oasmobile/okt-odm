@@ -10,4 +10,6 @@ plugins {
 
 dependencies {
     implementation(project(":odm-core"))
+    // Test
+    testImplementation("org.jetbrains.kotlin:kotlin-test:1.5.21")
 }
